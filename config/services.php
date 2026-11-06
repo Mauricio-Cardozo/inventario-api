@@ -35,4 +35,9 @@ return [
         ],
     ],
 
+    // Clave compartida entre Laravel y el servidor gRPC (Node.js).
+    'grpc' => [
+        'internal_key' => env('GRPC_INTERNAL_KEY', ''),
+    ],
+
 ];
