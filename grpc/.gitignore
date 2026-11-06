@@ -1,0 +1,6 @@
+node_modules/
+.venv/
+__pycache__/
+# Stubs generados con grpc_tools.protoc
+producto_pb2.py
+producto_pb2_grpc.py
